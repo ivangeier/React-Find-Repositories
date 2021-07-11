@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Repositories from './pages/repositories'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title="Hello Gama Academy" user="Gama Academy" />
   </React.StrictMode>,
   document.getElementById('root')
 );
